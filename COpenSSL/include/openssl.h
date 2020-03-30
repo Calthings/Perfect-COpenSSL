@@ -14,6 +14,7 @@
 #include "../rand.h"
 #include "../cms.h"
 #include "../evp.h"
+#include "../engine.h"
 
 static int copenssl_EVP_MD_size(const EVP_MD *md) {
 	return EVP_MD_size(md);
